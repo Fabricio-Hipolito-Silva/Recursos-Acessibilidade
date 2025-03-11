@@ -73,3 +73,44 @@ p{
     left: 0;
     z-index: 1;
 }
+.tabela-horarios {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.tabela-horarios th,
+.tabela-horarios td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.tabela-horarios th {
+    background-color: #f4f4f4;
+    color: #333;
+    font-weight: bold;
+}
+
+.tabela-horarios tr:nth-child(even) {
+    background-color: #fafafa;
+}
+
+.tabela-horarios .intervalo {
+    background-color: #ffe6e6;
+    font-weight: bold;
+    color: #a00;
+}
+
+.conteudo {
+    display: flex; /* Usa Flexbox para alinhar lado a lado */
+    position: relative; /* Alinha verticalmente no centro */
+    gap: 20px; /* Espaçamento entre a lista e a imagem */
+}
+
+ul {
+    list-style-type: none; /* Remove os marcadores da lista */
+    padding: 0;
+    margin: 10;
+    left: 100%;
+}
