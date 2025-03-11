@@ -38,3 +38,38 @@ header {
     padding: 5px;
     flex-grow: 1;  
 }
+.titulo{
+    color: #13545e;
+    margin: 10px;
+}
+
+p{
+    margin: 10px;
+}
+
+.divisor {
+    position: relative;
+    width: 100%;
+    margin: 5px;
+}
+
+.progress-fino {
+    width: 85%; 
+    height: 5px; 
+    background-color: #a00;
+    border-radius: 10px;
+    position: relative;
+    z-index: -1;
+}
+
+.progress {
+    width: 25%;
+    height: 12px; 
+    background-color: #a00;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%; 
+    transform: translateY(-50%);
+    left: 0;
+    z-index: 1;
+}
