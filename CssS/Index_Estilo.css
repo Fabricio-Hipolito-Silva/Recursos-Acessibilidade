@@ -1,0 +1,26 @@
+nav{
+    display: flex; /* Define que a nav será um container flexível */
+    justify-content: flex-end; 
+    padding: 10px;
+}
+nav a{
+    margin: 3;
+}
+hr {
+    margin: 0; /* Remove qualquer margem */
+    border: none; /* Remove a borda padrão */
+    height: 1px; /* Define a altura da linha */
+    background-color: #ccc; /* Define a cor da linha */
+}
+nav a .barra {
+    width: 1px;
+    height: 20px;
+    background-color: #807d7d;
+    margin: 0 10px;
+}
+.cps{
+    background-color: rgb(70, 184, 174);
+}
+.cps img{
+    padding: 20px;
+}

@@ -1,0 +1,27 @@
+.nav-tabs {
+    height: 35px;
+    }
+    .conteudo_navbar{
+        border: 1px solid rgb(197, 196, 196);
+    }
+    .tab_bar_nav{
+        display: inline-block;
+        position: relative;
+        top: 10px;
+    }
+    li.nav-item {
+        background-color: #b0a9a9;
+        margin: 2px;
+    }
+    .nav-link.active {
+     background-color: #13545e !important;
+    color: white !important;
+    }
+
+    .nav-link {
+    color: black !important;
+    padding: 5px 10px;
+    font-size: 14px; 
+    }
+
+    
