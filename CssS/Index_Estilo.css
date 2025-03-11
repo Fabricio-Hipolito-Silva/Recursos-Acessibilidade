@@ -19,8 +19,22 @@ nav a .barra {
     margin: 0 10px;
 }
 .cps{
-    background-color: rgb(70, 184, 174);
+    background-color: white;
 }
 .cps img{
     padding: 20px;
+}
+header {
+    display: flex;
+    justify-content: space-between; /* Alinha os elementos nas extremidades */
+    align-items: center; /* Alinha verticalmente ao centro */
+    padding: 0px;
+}
+
+.retangulo_sp {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente */
+    background-color: black;
+    padding: 5px;
+    flex-grow: 1;  
 }
