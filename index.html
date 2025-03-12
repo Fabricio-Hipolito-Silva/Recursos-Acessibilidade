@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="CssS/NavBarEstilo.css">
     <link rel="stylesheet" href="CssS/Index_Estilo.css">
     <link rel="stylesheet" href="CssS/Daltonismo.css">
+    <link rel="stylesheet" href="CssS/Darkmode.css">
+
 
 
 
@@ -33,18 +35,28 @@
           
         </div>
         <nav>
-            <a>
+            <a href="https://github.com/Fabricio-Hipolito-Silva" target="_blank">
                 <img src="ImgS/github.png" width=20px">
             </a>
             <a>
             <div class="barra"></div>
             </a>
-            <a>
+            <a id="aumentar_tmh">
                 <img src="ImgS/plus.png" width=20px">
             </a>
-            <a>
+            <a id="diminuir_tmh">
                 <img src="ImgS/minus.png" width=20px">
             </a>
+            <script src="ScriptS/Alterar_tm_fonte.js"></script>
+            <a id="text-to-speach">
+                <img src="ImgS/speaker.png" width="20px">
+            </a>
+            <script src="ScriptS/text-to-speach.js"></script>
+            <a id="dark_mode">
+                <img src="ImgS/dark-mode.png" width="20px">
+            </a>
+            <script src="ScriptS/darkmode.js"></script>
+
         </nav>
     </header>
     <hr>
@@ -364,6 +376,27 @@
             </div>
           </div>
 
-  
+          <button class="btnTop" id="btnTop" onclick="scrollToTop()">▲</button>
+
+          <script>
+            // Referência ao botão
+            const btnTop = document.getElementById("btnTop");
+        
+            // Mostrar ou esconder o botão com base no scroll
+            window.onscroll = function () {
+              if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+                btnTop.style.opacity = "1";
+                btnTop.style.visibility = "visible";
+              } else {
+                btnTop.style.opacity = "0";
+                btnTop.style.visibility = "hidden";
+              }
+            };
+        
+            // Função para voltar ao topo com efeito suave
+            function scrollToTop() {
+              window.scrollTo({ top: 0, behavior: 'smooth' });
+            }
+          </script>
 </body>
 </html>
