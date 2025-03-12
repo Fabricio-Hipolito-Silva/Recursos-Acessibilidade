@@ -1,0 +1,62 @@
+
+.cps .daltonismo{
+    float: right;
+    margin: 10px;
+}
+.cps .daltonismo #daltonismo{
+    border: 1px solid #a00;
+    border-radius: 40px 40px 40px 40px; 
+    padding: 10px;
+    background-color: none;
+    color: #a00;
+}
+.cps .daltonismo label{
+    display: block;
+    margin-bottom: 2px;
+    color: #a00;
+}
+
+/* Padrão */
+body.normal {
+    filter: none;
+}
+
+/* Acromatomia (perda total de cores) */
+body.acromatomia {
+    filter: grayscale(100%);
+}
+
+/* Acromatopsia (visão em tons de cinza com mais contraste) */
+body.acromatopsia {
+    filter: grayscale(100%) contrast(100%);
+}
+
+/* Deuteranomalia (daltônico verde-vermelho, mais comum) */
+body.deuteranomalia {
+    filter: contrast(90%) brightness(90%) hue-rotate(90deg);
+}
+
+/* Deuteranopia (daltônico verde-vermelho, mais grave) */
+body.deuteranopia {
+    filter: contrast(90%) brightness(90%) hue-rotate(90deg);
+}
+
+/* Protanomalia (daltônico vermelho-verde) */
+body.protanomalia {
+    filter: contrast(90%) brightness(90%) hue-rotate(-90deg);
+}
+
+/* Protanopia (daltônico vermelho-verde, mais grave) */
+body.protanopia {
+    filter: contrast(90%) brightness(90%) hue-rotate(-90deg);
+}
+
+/* Tritanomalia (daltônico azul-amarelo) */
+body.tritanomalia {
+    filter: contrast(100%) brightness(100%) hue-rotate(120deg);
+}
+
+/* Tritanopia (daltônico azul-amarelo, mais grave) */
+body.tritanopia {
+    filter: contrast(100%) brightness(100%) hue-rotate(120deg);
+}
