@@ -1,116 +1,116 @@
-nav{
-    display: flex; /* Define que a nav será um container flexível */
-    justify-content: flex-end; 
-    padding: 10px;
-}
-nav a{
-    margin: 3;
-}
-hr {
-    margin: 0; /* Remove qualquer margem */
-    border: none; /* Remove a borda padrão */
-    height: 1px; /* Define a altura da linha */
-    background-color: #ccc; /* Define a cor da linha */
-}
-nav a .barra {
-    width: 1px;
-    height: 20px;
-    background-color: #807d7d;
-    margin: 0 10px;
-}
-.cps{
-    background-color: white;
-}
-.cps img{
-    padding: 20px;
-}
-header {
-    display: flex;
-    justify-content: space-between; /* Alinha os elementos nas extremidades */
-    align-items: center; /* Alinha verticalmente ao centro */
-    padding: 0px;
-}
+    nav{
+        display: flex; /* Define que a nav será um container flexível */
+        justify-content: flex-end; 
+        padding: 10px;
+    }
+    nav a{
+        margin: 3;
+    }
+    hr {
+        margin: 0; /* Remove qualquer margem */
+        border: none; /* Remove a borda padrão */
+        height: 1px; /* Define a altura da linha */
+        background-color: #ccc; /* Define a cor da linha */
+    }
+    nav a .barra {
+        width: 1px;
+        height: 20px;
+        background-color: #807d7d;
+        margin: 0 10px;
+    }
+    .cps{
+        background-color: white;
+    }
+    .cps img{
+        padding: 20px;
+    }
+    header {
+        display: flex;
+        justify-content: space-between; /* Alinha os elementos nas extremidades */
+        align-items: center; /* Alinha verticalmente ao centro */
+        padding: 0px;
+    }
 
-.retangulo_sp {
-    display: flex;
-    align-items: center; /* Centraliza verticalmente */
-    background-color: black;
-    padding: 5px;
-    flex-grow: 1;  
-}
-.titulo{
-    color: #13545e;
-    margin: 10px;
-}
+    .retangulo_sp {
+        display: flex;
+        align-items: center; /* Centraliza verticalmente */
+        background-color: black;
+        padding: 5px;
+        flex-grow: 1;  
+    }
+    .titulo{
+        color: #13545e;
+        margin: 10px;
+    }
 
-p{
-    margin: 10px;
-}
+    p{
+        margin: 10px;
+    }
 
-.divisor {
-    position: relative;
-    width: 100%;
-    margin: 5px;
-}
+    .divisor {
+        position: relative;
+        width: 100%;
+        margin: 5px;
+    }
 
-.progress-fino {
-    width: 85%; 
-    height: 5px; 
-    background-color: #a00;
-    border-radius: 10px;
-    position: relative;
-    z-index: -1;
-}
+    .progress-fino {
+        width: 85%; 
+        height: 5px; 
+        background-color: #a00;
+        border-radius: 10px;
+        position: relative;
+        z-index: -1;
+    }
 
-.progress {
-    width: 25%;
-    height: 12px; 
-    background-color: #a00;
-    border-radius: 10px;
-    position: absolute;
-    top: 50%; 
-    transform: translateY(-50%);
-    left: 0;
-    z-index: 1;
-}
-.tabela-horarios {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
-}
+    .progress {
+        width: 25%;
+        height: 12px; 
+        background-color: #a00;
+        border-radius: 10px;
+        position: absolute;
+        top: 50%; 
+        transform: translateY(-50%);
+        left: 0;
+        z-index: 1;
+    }
+    .tabela-horarios {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
 
-.tabela-horarios th,
-.tabela-horarios td {
-    border: 1px solid #ccc;
-    padding: 10px;
-    text-align: center;
-}
+    .tabela-horarios th,
+    .tabela-horarios td {
+        border: 1px solid #ccc;
+        padding: 8px;
+        text-align: center;
+    }
 
-.tabela-horarios th {
-    background-color: #f4f4f4;
-    color: #333;
-    font-weight: bold;
-}
+    .tabela-horarios th {
+        background-color: #f4f4f4;
+        color: #333;
+        font-weight: bold;
+    }
 
-.tabela-horarios tr:nth-child(even) {
-    background-color: #fafafa;
-}
+    .tabela-horarios tr:nth-child(even) {
+        background-color: #fafafa;
+    }
 
-.tabela-horarios .intervalo {
-    background-color: #ffe6e6;
-    font-weight: bold;
-    color: #a00;
-}
+    .tabela-horarios .intervalo {
+        background-color: #ffe6e6;
+        font-weight: bold;
+        color: #a00;
+    }
 
-.conteudo {
-    display: flex; /* Usa Flexbox para alinhar lado a lado */
-    position: relative; /* Alinha verticalmente no centro */
-    gap: 20px; /* Espaçamento entre a lista e a imagem */
-}
+    .conteudo {
+        display: flex; /* Usa Flexbox para alinhar lado a lado */
+        position: relative; /* Alinha verticalmente no centro */
+        gap: 20px; /* Espaçamento entre a lista e a imagem */
+    }
 
-ul {
-    list-style-type: none; /* Remove os marcadores da lista */
-    padding: 0;
-    margin: 10;
-    left: 100%;
-}
+    ul {
+        list-style-type: none; /* Remove os marcadores da lista */
+        padding: 0;
+        margin: 10;
+        left: 100%;
+    }
